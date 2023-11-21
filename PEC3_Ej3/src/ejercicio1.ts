@@ -1,6 +1,5 @@
-Sustituye /***/ por las instrucciones adeacuadas que cumplan las operaciones 
-y salidas indicadas en los comentarios.
-
+// Sustituye /***/ por las instrucciones adeacuadas que cumplan las operaciones 
+// y salidas indicadas en los comentarios.
 
 function printArray(array:Array<number>):void{
 	//code to print the array on console
