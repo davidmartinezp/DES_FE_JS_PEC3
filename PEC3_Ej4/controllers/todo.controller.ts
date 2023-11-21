@@ -22,7 +22,7 @@ class TodoController {
       this.view.bindToggleTodo(this.handleToggleTodo);
   
       // Display initial todos
-      this.onTodoListChanged(this.service.storedTodos);
+      this.onTodoListChanged(this.service.todos);
     }
   
     private onTodoListChanged = (todos: Todo[]): void => {
