@@ -1,0 +1,19 @@
+{
+  "name": "pec3_ej4",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist .cache .cache-loader .parcel-cache",
+    "dev": "npm-run-all clean parcel:serve",
+    "build": "npm-run-all clean stylelint parcel:build",
+    "start": "npm-run-all clean parcel:dev",
+    "parcel:dev": "parcel index.html -p 8123"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.3"
+  }
+}
