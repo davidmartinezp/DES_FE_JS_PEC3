@@ -24,8 +24,8 @@ module.exports = {
     contentBase: "./dist", 
     inline: true, 
     host: "localhost",
-    port: 8080,
-    stats: "errors-only"
+    port: 8080
+    // stats: "errors-only"
   },
   module: {
     rules: [

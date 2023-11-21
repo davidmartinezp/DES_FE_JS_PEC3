@@ -6,7 +6,12 @@
  * @param model
  * @param view
  */
-class TodoController {
+
+import { TodoService } from '../services/todo.service';
+import { TodoView } from '../views/todo.views';
+import { Todo } from '../models/todo.model';
+
+export class TodoController {
     private service: TodoService;
     private view: TodoView;
   

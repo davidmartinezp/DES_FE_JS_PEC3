@@ -4,7 +4,7 @@
  * Manages the data of the application.
  */
 
-class Todo {
+export class Todo {
     id: string;
     text: string;
     complete: boolean;

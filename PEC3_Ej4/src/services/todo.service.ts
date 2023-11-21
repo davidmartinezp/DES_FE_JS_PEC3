@@ -3,7 +3,9 @@
  *
  * Manages the data of the application.
  */
-class TodoService {
+import { Todo } from '../models/todo.model';
+
+export class TodoService {
     public todos: Todo[];
   
     constructor() {
